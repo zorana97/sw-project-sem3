@@ -13,6 +13,12 @@
 		4C33826D298590890027616F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C33826B298590890027616F /* Main.storyboard */; };
 		4C33826F2985908E0027616F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C33826E2985908E0027616F /* Assets.xcassets */; };
 		4C3382722985908E0027616F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3382702985908E0027616F /* LaunchScreen.storyboard */; };
+		4C33827A2985BC5E0027616F /* LocationPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3382792985BC5E0027616F /* LocationPublisher.swift */; };
+		4C33827C298703E10027616F /* EndRunPopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C33827B298703E10027616F /* EndRunPopOverViewController.swift */; };
+		4C33827F298714D60027616F /* RouteModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C33827D298714D60027616F /* RouteModel.xcdatamodeld */; };
+		4C3382812987175E0027616F /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3382802987175E0027616F /* HistoryViewController.swift */; };
+		4C3382832987181B0027616F /* RouteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3382822987181B0027616F /* RouteCell.swift */; };
+		4C338285298720FB0027616F /* TimePickerPopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C338284298720FB0027616F /* TimePickerPopOverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		4C33826E2985908E0027616F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C3382712985908E0027616F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C3382732985908E0027616F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3382792985BC5E0027616F /* LocationPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPublisher.swift; sourceTree = "<group>"; };
+		4C33827B298703E10027616F /* EndRunPopOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndRunPopOverViewController.swift; sourceTree = "<group>"; };
+		4C33827E298714D60027616F /* Route.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Route.xcdatamodel; sourceTree = "<group>"; };
+		4C3382802987175E0027616F /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		4C3382822987181B0027616F /* RouteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteCell.swift; sourceTree = "<group>"; };
+		4C338284298720FB0027616F /* TimePickerPopOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerPopOverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,12 @@
 				4C33826E2985908E0027616F /* Assets.xcassets */,
 				4C3382702985908E0027616F /* LaunchScreen.storyboard */,
 				4C3382732985908E0027616F /* Info.plist */,
+				4C3382792985BC5E0027616F /* LocationPublisher.swift */,
+				4C33827B298703E10027616F /* EndRunPopOverViewController.swift */,
+				4C33827D298714D60027616F /* RouteModel.xcdatamodeld */,
+				4C3382802987175E0027616F /* HistoryViewController.swift */,
+				4C3382822987181B0027616F /* RouteCell.swift */,
+				4C338284298720FB0027616F /* TimePickerPopOverViewController.swift */,
 			);
 			path = "sw-proj";
 			sourceTree = "<group>";
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C33827C298703E10027616F /* EndRunPopOverViewController.swift in Sources */,
+				4C3382832987181B0027616F /* RouteCell.swift in Sources */,
 				4C33826A298590890027616F /* ViewController.swift in Sources */,
+				4C33827A2985BC5E0027616F /* LocationPublisher.swift in Sources */,
+				4C338285298720FB0027616F /* TimePickerPopOverViewController.swift in Sources */,
+				4C33827F298714D60027616F /* RouteModel.xcdatamodeld in Sources */,
 				4C338266298590890027616F /* AppDelegate.swift in Sources */,
+				4C3382812987175E0027616F /* HistoryViewController.swift in Sources */,
 				4C338268298590890027616F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +382,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C33827D298714D60027616F /* RouteModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C33827E298714D60027616F /* Route.xcdatamodel */,
+			);
+			currentVersion = 4C33827E298714D60027616F /* Route.xcdatamodel */;
+			path = RouteModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4C33825A298590890027616F /* Project object */;
 }
